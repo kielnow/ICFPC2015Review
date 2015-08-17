@@ -1,8 +1,21 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simulator", "simulator.vcxproj", "{7FD42DF7-442E-479A-BA76-D0022F99702A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E87F8E4F-E042-4B39-98E6-527D5F65F2F8} = {E87F8E4F-E042-4B39-98E6-527D5F65F2F8}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openframeworksLib", "..\..\openFrameworks\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj", "{5837595D-ACA9-485C-8E76-729040CE4B0B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ofxGui", "..\..\addons\ofxGui\ofxGui.vcxproj", "{E87F8E4F-E042-4B39-98E6-527D5F65F2F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "addons", "addons", "{1D9950C5-A2A9-45B7-AAEA-C32B5EFE364A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ofxXmlSettings", "..\..\addons\ofxXmlSettings\ofxXmlSettings.vcxproj", "{D001D8C1-E30C-4B82-AE50-DEB33AFC12B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ofxTrueTypeFontUC", "..\..\addons\ofxTrueTypeFontUC\ofxTrueTypeFontUC.vcxproj", "{A2B88989-47CC-4021-ACEC-DE83C45D89DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,8 +41,37 @@ Global
 		{5837595D-ACA9-485C-8E76-729040CE4B0B}.Release|Win32.Build.0 = Release|Win32
 		{5837595D-ACA9-485C-8E76-729040CE4B0B}.Release|x64.ActiveCfg = Release|x64
 		{5837595D-ACA9-485C-8E76-729040CE4B0B}.Release|x64.Build.0 = Release|x64
+		{E87F8E4F-E042-4B39-98E6-527D5F65F2F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E87F8E4F-E042-4B39-98E6-527D5F65F2F8}.Debug|Win32.Build.0 = Debug|Win32
+		{E87F8E4F-E042-4B39-98E6-527D5F65F2F8}.Debug|x64.ActiveCfg = Debug|x64
+		{E87F8E4F-E042-4B39-98E6-527D5F65F2F8}.Debug|x64.Build.0 = Debug|x64
+		{E87F8E4F-E042-4B39-98E6-527D5F65F2F8}.Release|Win32.ActiveCfg = Release|Win32
+		{E87F8E4F-E042-4B39-98E6-527D5F65F2F8}.Release|Win32.Build.0 = Release|Win32
+		{E87F8E4F-E042-4B39-98E6-527D5F65F2F8}.Release|x64.ActiveCfg = Release|x64
+		{E87F8E4F-E042-4B39-98E6-527D5F65F2F8}.Release|x64.Build.0 = Release|x64
+		{D001D8C1-E30C-4B82-AE50-DEB33AFC12B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D001D8C1-E30C-4B82-AE50-DEB33AFC12B0}.Debug|Win32.Build.0 = Debug|Win32
+		{D001D8C1-E30C-4B82-AE50-DEB33AFC12B0}.Debug|x64.ActiveCfg = Debug|x64
+		{D001D8C1-E30C-4B82-AE50-DEB33AFC12B0}.Debug|x64.Build.0 = Debug|x64
+		{D001D8C1-E30C-4B82-AE50-DEB33AFC12B0}.Release|Win32.ActiveCfg = Release|Win32
+		{D001D8C1-E30C-4B82-AE50-DEB33AFC12B0}.Release|Win32.Build.0 = Release|Win32
+		{D001D8C1-E30C-4B82-AE50-DEB33AFC12B0}.Release|x64.ActiveCfg = Release|x64
+		{D001D8C1-E30C-4B82-AE50-DEB33AFC12B0}.Release|x64.Build.0 = Release|x64
+		{A2B88989-47CC-4021-ACEC-DE83C45D89DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A2B88989-47CC-4021-ACEC-DE83C45D89DF}.Debug|Win32.Build.0 = Debug|Win32
+		{A2B88989-47CC-4021-ACEC-DE83C45D89DF}.Debug|x64.ActiveCfg = Debug|x64
+		{A2B88989-47CC-4021-ACEC-DE83C45D89DF}.Debug|x64.Build.0 = Debug|x64
+		{A2B88989-47CC-4021-ACEC-DE83C45D89DF}.Release|Win32.ActiveCfg = Release|Win32
+		{A2B88989-47CC-4021-ACEC-DE83C45D89DF}.Release|Win32.Build.0 = Release|Win32
+		{A2B88989-47CC-4021-ACEC-DE83C45D89DF}.Release|x64.ActiveCfg = Release|x64
+		{A2B88989-47CC-4021-ACEC-DE83C45D89DF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E87F8E4F-E042-4B39-98E6-527D5F65F2F8} = {1D9950C5-A2A9-45B7-AAEA-C32B5EFE364A}
+		{D001D8C1-E30C-4B82-AE50-DEB33AFC12B0} = {1D9950C5-A2A9-45B7-AAEA-C32B5EFE364A}
+		{A2B88989-47CC-4021-ACEC-DE83C45D89DF} = {1D9950C5-A2A9-45B7-AAEA-C32B5EFE364A}
 	EndGlobalSection
 EndGlobal

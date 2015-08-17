@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(OF_ROOT)\addons\ofxGui\src\ofxBaseGui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OF_ROOT)\addons\ofxGui\src\ofxButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OF_ROOT)\addons\ofxGui\src\ofxGuiGroup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OF_ROOT)\addons\ofxGui\src\ofxLabel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OF_ROOT)\addons\ofxGui\src\ofxPanel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OF_ROOT)\addons\ofxGui\src\ofxSlider.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OF_ROOT)\addons\ofxGui\src\ofxSliderGroup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OF_ROOT)\addons\ofxGui\src\ofxToggle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(OF_ROOT)\addons\ofxGui\src\ofxBaseGui.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OF_ROOT)\addons\ofxGui\src\ofxButton.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OF_ROOT)\addons\ofxGui\src\ofxGui.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OF_ROOT)\addons\ofxGui\src\ofxGuiGroup.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OF_ROOT)\addons\ofxGui\src\ofxLabel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OF_ROOT)\addons\ofxGui\src\ofxPanel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OF_ROOT)\addons\ofxGui\src\ofxSlider.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OF_ROOT)\addons\ofxGui\src\ofxSliderGroup.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OF_ROOT)\addons\ofxGui\src\ofxToggle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
